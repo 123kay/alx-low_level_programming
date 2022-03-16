@@ -1,24 +1,31 @@
 
-#include "main.h"
+#define MAIN_H
 
-/**
- * main - prints _putchar
- *
- * Description: prints _putchar
- *
- * Return: 0 (Success)
- */
+/* _putchar.c */
+int _putchar(char);
 
-int main(void)
-{
-	char text[9] = "_putchar";
-	int i = 0;
+/*10 x alphabet */
+void print_alphabet(void);
 
-	for (i = 0; i < 8; i++)
-	{
-		_putchar(text[i]);
-	}
-	_putchar('\n');
+/* 2-print_alphabet_x10.c */
+void print_alphabet_x10(void);
 
-	return (0);
-}
+int _islower(int c);
+
+int _isalpha(int n);
+
+int print_sign(int n);
+
+int _abs(int n);
+
+int print_last_digit(int n);
+
+void jack_bauer(void);
+
+void times_table(void);
+
+int add(int a, int b);
+
+void print_to_98(int n);
+
+void print_times_table(int n);
