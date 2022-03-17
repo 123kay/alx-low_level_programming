@@ -1,15 +1,14 @@
-#include <main.h>
-int main() {    
 
-    int number1, number2, sum;
-    
-    printf("Enter two integers: ");
-    scanf("%d %d", &number1, &number2);
+#include "main.h"
 
-    // calculating sum
-    sum = number1 + number2;      
-    
-    printf("%d + %d = %d", number1, number2, sum);
-    return 0;
+/**
+ * _islower - check for lower case letter
+ * @c : character to check the case
+ * Return:0 or 1
+ */
+
+int _islower(int c)
+{
+	return (c >= 97 && c <= 122);
+
 }
-
