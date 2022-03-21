@@ -1,17 +1,12 @@
-#include <main.h>
-#include <stdio.h>
+#include "main.h"
 
-int main (void)
+/**
+ *reset_to_98 - reset value in address referenced by pointer.
+ *@n: pointer.
+ *
+ *Return: void.
+ */
+void reset_to_98(int *n)
 {
- char ch;
- int n;
-
- ch = n
-
-    n = 402;
-    printf("n=%d\n", n);
-    reset_to_98(*n);
-    putchar("ch");
-    printf("n=%d\n", *n);
-    return (0);
+	*n = 98;
 }
